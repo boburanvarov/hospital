@@ -1,0 +1,60 @@
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+
+
+.logo {
+	color: #ff022c;
+}
+
+.about-banner {
+    height: 70vh;
+    background-image: url(../images/h2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+.about-banner h1 {
+    font-size: 50px;
+    margin-bottom: 45px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#news input {
+    padding: 5px;
+}
+#news {
+    background-color: #35424a;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 15px 0;
+    width: 100%;
+    display: inline-block;
+}
+
+#news h3 {
+	margin-left: 45px;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    background-color: coral;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+#b {
+	 margin-top: 25px;
+}
+
+footer{
+    background-color: #35424a;
+	color: white;
+}

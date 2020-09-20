@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>live</title><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap4/bootstrap.css">
+    <script type="text/javascript" src="bootstrap4/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap4/js/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap4/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap4/bootstrap.js.map">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <script type="text/javascript" src="bootstrap4/js/popper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="animated/animate.css">
+	<script type="text/javascript" src="animated/wow.js"></script>
+  <link rel="stylesheet" type="text/css" href="css-style/live.css">
+</head>
+<body>
+	<script type="text/javascript">
+		$(function glitchEffects() {
+			$glitch = $('<div class="glitch"></div>')
+			var x = (Math.random() * 200);
+			var y = (Math.random() * 200);
+
+			$glitch.css({
+				'left' :x+'px',
+				'top' :y+'px',
+			}).appendTo('section').fadeOut(200,function(){
+				$(this).remove();
+				glitchEffects();
+			});
+		})();
+	</script>
+	<section></section>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  <a class="navbar-brand" href="#"><span class="logo">Yangi Hayot</span> Hospital</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon" ></span>
+			 </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mr-auto">
+		    <li class="nav-item ">
+		        <a class="nav-link" href="hospital.html">Home <span class="sr-only">(current)</span></a>
+		     </li>
+		     <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="hospital2.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Kasalik varaqasi
+            </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="hospital2.html">Kasalik varaqasi ochish</a>
+            <a class="dropdown-item" href="#">Oilaviy kasalik varaqasi ochish</a>
+           
+            <a class="dropdown-item" href="#">Shahsiy kasalik varaqasiga kirish</a>
+            <a class="dropdown-item" href="#">Oilaviy kasalik varaqasiga kirish</a>
+        </div>
+        </li>
+	    <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Yo'nalishlar
+		        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Lor</a>
+	          <a class="dropdown-item" href="#">Analis</a>
+	         
+	          <a class="dropdown-item" href="#">Stamatolog</a>
+        </div>
+        </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Shifokorlar haqida malumotlar
+                </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Stamatolog</a>
+              <a class="dropdown-item" href="#">Analis</a>
+             
+              <a class="dropdown-item" href="#">Lor</a>
+        </div>
+        </li>
+        <li class="nav-item">
+       		 <a class="nav-link " href="about.html" tabindex="-1">about</a>
+      </li>
+       <li class="nav-item">
+             <a class="nav-link active " href="live.html" >Operatsion Live</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</body>
+</html>
